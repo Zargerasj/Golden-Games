@@ -1,0 +1,161 @@
+/* Global */
+*{ 
+font-family:'Montserrat', sans-serif!important; 
+}
+
+/* la clase list-unstyled me quita el punto de las listas pero me deja su espacio en blanco en el dom */
+
+ul{
+padding: 0!important;
+margin: 0!important;
+}
+
+footer img{
+z-index: -1;
+}
+
+/* fin global */
+
+/*Reset Colores */
+.offcanvas-title{
+ background-color: rgb(224, 235, 255);
+ border-radius: 10px;
+ -webkit-border-radius: 10px;
+ -moz-border-radius: 10px;
+ -ms-border-radius: 10px;
+ -o-border-radius: 10px;
+}
+
+.btn-outline-danger{
+color:#C237DB!important;
+border-color:#C237DB!important ;
+}
+
+.btn-outline-danger:hover{
+background-color:#C237DB!important;
+color:#00CCFF!important ;
+border-color: #00CCFF!important;
+}
+
+.btn-primary{
+background: rgb(166,237,255)!important;
+background: linear-gradient(180deg, rgba(166,237,255,1) 41%, rgba(0,204,255,1) 93%, rgba(42,212,255,1) 100%)!important;
+border-color:#00CCFF!important ;
+color: #84019B!important;
+}
+
+.text-secondary{
+color:#84019B!important;
+}
+
+.offcanvas{
+background: linear-gradient(180deg, #00CCFF 0%, #C237DB 100%);
+}
+
+.bg-primary{
+background: rgb(166,237,255)!important;
+background: linear-gradient(180deg, rgba(166,237,255,0) 0%, rgba(0,204,255,0.7371323529411764) 71%)!important;
+z-index:-1;
+}
+
+.text-dark{
+color: #858383!important;
+/* El figma pide que tenga un fw de 600 y en bootstrap 5 solo tiene 700 y 400 */
+font-weight:600;
+/*  */
+}
+
+.text-warning{
+color: #3B3B3C!important;
+font-size: 14px;
+line-height:50px;
+}
+
+.btn-outline-primary{
+ color: #00CCFF !important;
+ border: 2px solid #00CCFF!important;
+}
+
+.main_container_games-section{ 
+z-index:-1;
+background-color: #C237DB;
+filter:opacity(90%); 
+-webkit-filter:opacity(90%);
+}
+
+/* hover  */
+
+.text-black:hover{
+color: white!important;   
+
+}
+
+
+.text-dark:hover{
+color:#C237DB!important;
+}
+
+.header_enlacesDesktop_ul-li:hover{
+ color: #00CCFF!important;
+}
+
+.btn-outline-primary:hover{
+background-color: transparent!important;
+color: #C237DB!important ;
+border-color: #C237DB!important;;
+}
+
+.carousel-indicators > .active{
+background-color:#C237DB!important;
+ }
+
+/* fin reset colores */
+
+
+
+.main_container_games{
+ min-width:247px;
+ min-height:247px;
+ position: relative;
+ border-radius: 6px;
+ -webkit-border-radius: 6px;
+ -moz-border-radius: 6px;
+ -ms-border-radius: 6px;
+ -o-border-radius: 6px;
+ overflow: hidden;
+
+}
+
+.container-fluid{
+width:100vw ;
+padding: 0 !important;
+margin: 0!important;
+}
+
+.main_container_game-background{
+z-index:1;
+}
+
+.main_container_games div img{
+max-width:80px;
+max-height: 24px;
+transform: translatey(150%);
+-webkit-transform: translatey(150%);
+-moz-transform: translatey(150%);
+-ms-transform: translatey(150%);
+-o-transform: translatey(150%);
+}
+
+.main_container_games:hover > a > section{
+z-index: 1!important;
+}
+.main_container_games:hover > a  > .main_container_game-background{
+background: transparent !important;
+}
+   
+@media screen and (max-width:450px){
+.logoMobile{
+display: none!important;
+}
+}
+
